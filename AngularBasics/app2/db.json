@@ -1,0 +1,22 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "fiat",
+      "model": "volkswagen",
+      "color": "green"
+    },
+    {
+      "id": 2,
+      "name": "liva",
+      "model": "toyata",
+      "color": "black" 
+    },
+    {
+      "id": 3,
+      "name": "alto",
+      "model": "suzuki",
+      "color": "cream"
+    }
+  ]
+}

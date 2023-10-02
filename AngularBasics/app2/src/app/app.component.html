@@ -1,0 +1,15 @@
+ <table width="80%" border="2px">
+  <tr>
+    <td>ID</td>
+    <td>NAME</td>
+    <td>MODEL</td>
+    <td>COLOR</td>
+  </tr>
+
+  <tr *ngFor="let car of cars">
+    <td>{{car.id}}</td>
+    <td>{{car.name}}</td>  
+    <td>{{car.model}}</td>
+    <td>{{car.color}}</td>
+  </tr>
+ </table>

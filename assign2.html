@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <h1>javascript functions</h1>
+    <p>example of js functions</p>
+    <p id="demo"></p>
+    <script>
+        let hell0 = "";
+        var test = 4;
+        const constant = 9;
+
+        testConstant = function () {
+            console.log("i am here inside testConstant");
+            return "hello1";
+        }
+
+        test = function () {
+            console.log("i am here inside test");
+            return "hello1";
+        }
+
+        hello = function () {
+            console.log("i am here insie hello");
+            return "hello";
+        }
+        document.getElementById("demo").innerHTML = hello();
+    </script>
+</body>
+
+</html>
